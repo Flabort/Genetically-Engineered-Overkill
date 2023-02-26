@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/characters/GMO_dummy/GMO_dummy.tres" type="Resource" id=1]
+[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=23]
+
+[resource]
+script = ExtResource( 23 )
+characters = [ ExtResource( 1 ) ]
+items = [  ]
+weapons = [  ]
+weapons_characters = [  ]
+sets = [  ]
+challenges = [  ]
+upgrades = [  ]
+consumables = [  ]
+elites = [  ]
+difficulties = [  ]
+debug_items = [  ]
+debug_weapons = [  ]

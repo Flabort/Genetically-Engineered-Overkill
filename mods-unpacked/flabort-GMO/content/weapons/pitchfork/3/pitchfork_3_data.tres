@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://items/global/weapon_data.gd" type="Script" id=1]
+[ext_resource path="res://items/sets/precise/precise_set_data.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/pitchfork/Pitchfork_effect_1.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/pitchfork/4/pitchfork_4_data.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/pitchfork/3/pitchfork_3_stats.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/pitchfork/GMO_Pitchfork_icon.png" type="Texture" id=6]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/pitchfork/pitchfork.tscn" type="PackedScene" id=7]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "weapon_pitchfork_3_gmo"
+unlocked_by_default = false
+icon = ExtResource( 6 )
+name = "WEAPON_PITCHFORK"
+tier = 2
+value = 104
+effects = [ ExtResource( 3 ) ]
+tracking_text = ""
+weapon_id = "weapon_pitchfork_gmo"
+type = 0
+sets = [ ExtResource( 2 ) ]
+scene = ExtResource( 7 )
+stats = ExtResource( 5 )
+upgrades_into = ExtResource( 4 )

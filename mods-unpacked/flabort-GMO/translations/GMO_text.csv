@@ -1,0 +1,52 @@
+keys,en,es
+GMO_TEXT,Genetically Modified Overkill,Genéticamente Modificado Sobrecapacidad de Exterminación
+CHARACTER_GMO_DUMMY,Genetically Modified Overkill,Genéticamente Modificado Sobrecapacidad de Exterminación
+GMO_COMBINES CHARACTER_ARMS_DEALER,Starts with Arms Dealer,Empiezas con 1 Traficante de armas
+GMO_COMBINES CHARACTER_ARTIFICER,Starts with Artificer,Empiezas con 1 Artifice
+GMO_COMBINES CHARACTER_BRAWLER,Starts with Brawler,Empiezas con 1 Luchador
+GMO_COMBINES CHARACTER_BULL,Starts with Bull,Empiezas con 1 Toro
+GMO_COMBINES CHARACTER_CHUNKY,Starts with Chunky,Empiezas con 1 Mofletudo
+GMO_COMBINES CHARACTER_CRAZY,Starts with Crazy,Empiezas con 1 Loco
+GMO_COMBINES CHARACTER_CYBORG,Starts with Cyborg,Empiezas con 1 Cíborg
+GMO_COMBINES CHARACTER_DEMON,Starts with Demon,Empiezas con 1 Demonio
+GMO_COMBINES CHARACTER_DOCTOR,Starts with Doctor,Empiezas con 1 Médico
+GMO_COMBINES CHARACTER_ENGINEER,Starts with Engineer,Empiezas con 1 Ingeniero
+GMO_COMBINES CHARACTER_ENTREPRENEUR,Starts with Entrepreneur,Empiezas con 1 Emprendedor
+GMO_COMBINES CHARACTER_EXPLORER,Starts with Explorer,Empiezas con 1 Explorador
+GMO_COMBINES CHARACTER_FARMER,Starts with Farmer,Empiezas con 1 Agricultor
+GMO_COMBINES CHARACTER_GENERALIST,Starts with Generalist,Empiezas con 1 Versátil
+GMO_COMBINES CHARACTER_GHOST,Starts with Ghost,Empiezas con 1 Fantasma
+GMO_COMBINES CHARACTER_GLADIATOR,Starts with Gladiator,Empiezas con 1 Gladiador
+GMO_COMBINES CHARACTER_GLUTTON,Starts with Glutton,Empiezas con 1 Glotón
+GMO_COMBINES CHARACTER_HUNTER,Starts with Hunter,Empiezas con 1 Cazador
+GMO_COMBINES CHARACTER_JACK,Starts with Jack,Empiezas con 1 Jack
+GMO_COMBINES CHARACTER_KNIGHT,Starts with Knight,Empiezas con 1 Caballero
+GMO_COMBINES CHARACTER_LICH,Starts with Lich,Empiezas con 1 Liche
+GMO_COMBINES CHARACTER_LOUD,Starts with Loud,Empiezas con 1 Chillón
+GMO_COMBINES CHARACTER_LUCKY,Starts with Lucky,Empiezas con 1 Suertudo
+GMO_COMBINES CHARACTER_MAGE,Starts with Mage,Empiezas con 1 Mago
+GMO_COMBINES CHARACTER_MASOCHIST,Starts with Masochist,Empiezas con 1 Masoquista
+GMO_COMBINES CHARACTER_MULTITASKER,Starts with Multitasker,Empiezas con 1 Polifacético
+GMO_COMBINES CHARACTER_MUTANT,Starts with Mutant,Empiezas con 1 Mutante
+GMO_COMBINES CHARACTER_OLD,Starts with Old,Empiezas con 1 Viejales
+GMO_COMBINES CHARACTER_ONE_ARM,Starts with One Arm,Empiezas con 1 Una mano
+GMO_COMBINES CHARACTER_PACIFIST,Starts with Pacifist,Empiezas con 1 Pacifista
+GMO_COMBINES CHARACTER_RANGER,Starts with Ranger,Empiezas con 1 Comando
+GMO_COMBINES CHARACTER_SAVER,Starts with Saver,Empiezas con 1 Ahorrardor
+GMO_COMBINES CHARACTER_SICK,Starts with Sick,Empiezas con 1 Enfermo
+GMO_COMBINES CHARACTER_SOLDIER,Starts with Soldier,Empiezas con 1 Soldado
+GMO_COMBINES CHARACTER_SPEEDY,Starts with Speedy,Empiezas con 1 Veloz
+GMO_COMBINES CHARACTER_STREAMER,Starts with Streamer,Empiezas con 1 Personaje
+GMO_COMBINES CHARACTER_WELL_ROUNDED,Starts with Well Rounded,Empiezas con 1 Equilibrado
+GMO_COMBINES CHARACTER_WILDLING,Starts with Wildling,Empiezas con 1 Salvaje
+WEAPON_LOADED_DICE,Loaded Dice,dados cargados
+GMO_FEDORA,Dusty Fedora,Sombrero de Fieltro Polvoriento
+GMO_PRACTICAL_RESEARCH,Practical Research,Investigación Practica
+WEAPON_PITCHFORK,Pitchfork,Horqueta
+GMO_CHALLENGE_BASE,Genetically Modified Overkill,Genéticamente Modificado Sobrecapacidad de Exterminación
+GMO_CHALLENGE_ARTIFICER_LUCKY,Gambling,Arriesgarse
+GMO_CHALLENGE_OLD_EXPLORER,I Hate Snakes,Odio las Serpientes
+GMO_CHALLENGE_ENGINEER_DOCTOR,Graduate,Graduado
+GMO_CHALLENGE_DEMON_GLADIATOR,Pit Fiend,Demonio del pozo
+GMO_CHALLENGE_CRAZY_JACK,The Ripper,El Destripador
+GMO_RAZOR_BLADE,Razor Blade,Cuchilla de Afeitar

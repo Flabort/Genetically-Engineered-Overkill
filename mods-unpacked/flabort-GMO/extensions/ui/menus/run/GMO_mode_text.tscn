@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://resources/fonts/actual/base/font_big_title.tres" type="DynamicFont" id=1]
+
+[node name="GMO_mode_text" type="Label"]
+margin_left = 142.0
+margin_right = 993.0
+margin_bottom = 73.0
+custom_fonts/font = ExtResource( 1 )
+text = "SELECT_SECOND_CHARACTER"
+align = 1

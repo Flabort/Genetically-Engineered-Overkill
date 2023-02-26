@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://items/global/effect.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+key = "stat_luck"
+text_key = "EFFECT_CONSUMABLE_STAT_WHILE_MAX"
+value = 1
+custom_key = "consumable_stats_while_max"
+storage_method = 1
+effect_sign = 3
+custom_args = [  ]

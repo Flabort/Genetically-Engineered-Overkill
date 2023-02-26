@@ -1,0 +1,38 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://weapons/weapon_stats/ranged_weapon_stats.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/loaded_dice/loaded_dice_projectile.tscn" type="PackedScene" id=2]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/loaded_dice/GMO_loaded_dice_empty.png" type="Texture" id=3]
+[ext_resource path="res://weapons/melee_sounds/whoosh_swish_high_fast_02.wav" type="AudioStream" id=4]
+[ext_resource path="res://weapons/melee_sounds/whoosh_swish_high_fast_01.wav" type="AudioStream" id=5]
+
+[resource]
+script = ExtResource( 1 )
+cooldown = 50
+damage = 1
+accuracy = 1.0
+crit_chance = 0.03
+crit_damage = 1.75
+min_range = 0
+max_range = 150
+knockback = 0
+effect_scale = 1.0
+scaling_stats = [ [ "stat_ranged_damage", 0.2 ], [ "stat_luck", 0.1 ] ]
+lifesteal = 0.0
+shooting_sounds = [ ExtResource( 5 ), ExtResource( 4 ) ]
+sound_db_mod = -5
+is_healing = false
+custom_on_cooldown_sprite = ExtResource( 3 )
+recoil = 25
+recoil_duration = 0.1
+additional_cooldown_every_x_shots = -1
+additional_cooldown_multiplier = -1.0
+nb_projectiles = 3
+projectile_spread = 0.75
+piercing = 0
+piercing_dmg_reduction = 0.5
+bounce = 0
+bounce_dmg_reduction = 0.5
+projectile_speed = 1000
+increase_projectile_speed_with_range = true
+projectile_scene = ExtResource( 2 )

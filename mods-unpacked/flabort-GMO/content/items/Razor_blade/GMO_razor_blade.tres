@@ -1,0 +1,21 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Razor_blade/GMO_razor_blade_icon.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Razor_blade/razor_blade_effect_1.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Razor_blade/razor_blade_effect_2.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Razor_blade/razor_blade_effect_3.tres" type="Resource" id=5]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "GMO_razor_blade"
+unlocked_by_default = false
+icon = ExtResource( 2 )
+name = "GMO_RAZOR_BLADE"
+tier = 1
+value = 34
+effects = [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ) ]
+tracking_text = ""
+max_nb = -1
+item_appearances = [  ]
+tags = [ "stat_crit_chance" ]

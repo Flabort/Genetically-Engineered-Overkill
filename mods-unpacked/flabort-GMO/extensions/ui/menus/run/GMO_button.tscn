@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://mods-unpacked/flabort-GMO/extensions/ui/menus/run/GMO_button.gd" type="Script" id=1]
+[ext_resource path="res://resources/fonts/actual/base/font_big_outlined.tres" type="DynamicFont" id=2]
+
+[node name="GMOButton" type="CheckButton"]
+unique_name_in_owner = true
+anchor_top = 10.0
+anchor_bottom = 10.0
+margin_left = 593.0
+margin_top = 974.0
+margin_right = 1239.0
+margin_bottom = 1044.0
+size_flags_horizontal = 4
+custom_fonts/font = ExtResource( 2 )
+text = "GMO_TEXT"
+script = ExtResource( 1 )
+
+[connection signal="toggled" from="." to="." method="_on_GMOButton_toggled"]

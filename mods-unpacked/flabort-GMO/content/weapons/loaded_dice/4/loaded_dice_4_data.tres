@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://items/global/weapon_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/loaded_dice/4/loaded_dice_4_stats.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/loaded_dice/loaded_dice.tscn" type="PackedScene" id=3]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/loaded_dice/1/loaded_dice_effect.tres" type="Resource" id=4]
+[ext_resource path="res://items/sets/explosive/explosive_set_data.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/loaded_dice/GMO_loaded_dice_icon.png" type="Texture" id=6]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "loaded_dice_3_data"
+unlocked_by_default = false
+icon = ExtResource( 6 )
+name = "Loaded Dice"
+tier = 3
+value = 149
+effects = [ ExtResource( 4 ) ]
+tracking_text = ""
+weapon_id = "WEAPON_LOADED_DICE"
+type = 1
+sets = [ ExtResource( 5 ) ]
+scene = ExtResource( 3 )
+stats = ExtResource( 2 )

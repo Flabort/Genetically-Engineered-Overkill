@@ -1,0 +1,22 @@
+{
+	"name": "GMO",
+	"namespace": "flabort",
+	"version_number": "0.1.2",
+	"description": "Allows for using more than one class at a time, at a cost",
+	"website_url": "",
+	"dependencies": [
+		"Darkly77-ContentLoader",
+		"Darkly77-ExpandedChallenges"
+	],
+	"extra": {
+		"godot": {
+			"incompatibilities": [
+				
+			],
+			"authors": ["Flabort"],
+			"compatible_mod_loader_version": "3.0.0",
+			"compatible_game_version": ["0.6.1.6"],
+			"config_defaults": {}
+		}
+	}
+}

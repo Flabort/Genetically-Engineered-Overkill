@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://mods-unpacked/flabort-GMO/extra_classes/gmo_incompatables.gd" type="Script" id=1]
+[ext_resource path="res://items/characters/one_arm/one_arm_data.tres" type="Resource" id=2]
+[ext_resource path="res://items/characters/ranger/ranger_data.tres" type="Resource" id=3]
+[ext_resource path="res://items/characters/bull/bull_data.tres" type="Resource" id=4]
+[ext_resource path="res://items/characters/gladiator/gladiator_data.tres" type="Resource" id=5]
+[ext_resource path="res://items/characters/generalist/generalist_data.tres" type="Resource" id=6]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "character_gladiator"
+incompatible_characters = [ ExtResource( 5 ), ExtResource( 4 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 6 ) ]
