@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://items/global/weapon_data.gd" type="Script" id=1]
+[ext_resource path="res://items/sets/primitive/primitive_set_data.tres" type="Resource" id=2]
+[ext_resource path="res://items/sets/unarmed/unarmed_set_data.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/gmo-fist-wrappings/gmo-fist-wrappings.tscn" type="PackedScene" id=4]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/gmo-fist-wrappings/gmo_fist_wrappings_icon.png" type="Texture" id=5]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/gmo-fist-wrappings/4/gmo_fist_wrappings_4_stats.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/gmo-fist-wrappings/gmo_fist_wrappings_effect.tres" type="Resource" id=7]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "weapon_gmo_fist_wrappings_4"
+unlocked_by_default = false
+icon = ExtResource( 5 )
+name = "WEAPON_GMO_FIST_WRAPPINGS"
+tier = 3
+value = 91
+effects = [ ExtResource( 7 ) ]
+tracking_text = ""
+weapon_id = "weapon_gmo_fist_wrappings"
+type = 0
+sets = [ ExtResource( 3 ), ExtResource( 2 ) ]
+scene = ExtResource( 4 )
+stats = ExtResource( 6 )

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Protest_sign/GMO_protest_sign_icon.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Protest_sign/GMO_protest_sign_appearence.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Protest_sign/gmo_protest_sign_effect_1.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Protest_sign/gmo_protest_sign_effect_2.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Protest_sign/gmo_protest_sign_effect_3.tres" type="Resource" id=6]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "gmo_protest_sign"
+unlocked_by_default = false
+icon = ExtResource( 2 )
+name = "GMO_PROTEST_SIGN"
+tier = 2
+value = 76
+effects = [ ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ) ]
+tracking_text = ""
+max_nb = 2
+item_appearances = [ ExtResource( 3 ) ]
+tags = [ "stat_armor", "stat_luck" ]
