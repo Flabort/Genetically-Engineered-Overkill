@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/GMO_fist_wrappings_icon.png-6b4df4e00ed5da7f481402c56ec8c76a.stex"
+path="res://.import/GMO_practical_research_icon.png-378454b33464d8fa6060841b288d0d2c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/flabort-GMO/content/weapons/gmo-fist-wrappings/GMO_fist_wrappings_icon.png"
-dest_files=[ "res://.import/GMO_fist_wrappings_icon.png-6b4df4e00ed5da7f481402c56ec8c76a.stex" ]
+source_file="res://mods-unpacked/flabort-GMO/content/items/Practical_Research/GMO_practical_research_icon.png"
+dest_files=[ "res://.import/GMO_practical_research_icon.png-378454b33464d8fa6060841b288d0d2c.stex" ]
 
 [params]
 

@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=3 format=2]
 
 [ext_resource path="res://items/global/item_appearance_data.gd" type="Script" id=1]
-[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Practical Research/GMO_practical_research.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Practical_Research/GMO_practical_research.png" type="Texture" id=2]
 
 [resource]
 script = ExtResource( 1 )

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/GMO_money_tree_icon.png-a712c4ebbc6c776e94690a67e99e2cca.stex"
+path="res://.import/GMO_practical_research.png-ffefbbd2f345310410f8c4729666ee47.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/flabort-GMO/content/items/Money Tree/GMO_money_tree_icon.png"
-dest_files=[ "res://.import/GMO_money_tree_icon.png-a712c4ebbc6c776e94690a67e99e2cca.stex" ]
+source_file="res://mods-unpacked/flabort-GMO/content/items/Practical_Research/GMO_practical_research.png"
+dest_files=[ "res://.import/GMO_practical_research.png-ffefbbd2f345310410f8c4729666ee47.stex" ]
 
 [params]
 

@@ -3,7 +3,7 @@
 [ext_resource path="res://items/characters/multitasker/multitasker_data.tres" type="Resource" id=1]
 [ext_resource path="res://items/characters/wildling/wildling_data.tres" type="Resource" id=2]
 [ext_resource path="res://mods-unpacked/flabort-GMO/content/characters/GMO_dummy/GMO_dummy.tres" type="Resource" id=3]
-[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/gmo-fist-wrappings/gmo_fist_wrappings_icon.png" type="Texture" id=4]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/gmo-fist-wrappings/GMO_fist_wrappings_icon.png" type="Texture" id=4]
 [ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/gmo-fist-wrappings/1/gmo_fist_wrappings_data.tres" type="Resource" id=5]
 [ext_resource path="res://mods-unpacked/Darkly77-ExpandedChallenges/challenges/ex_challenge_data.gd" type="Script" id=6]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gmo_fist_wrappings_short.png-6ab8accfeb0a3e72bd2e7f2491480ffc.stex"
+path="res://.import/GMO_fist_wrappings_short.png-2e53ef52285073c2ad60a50bdb97009f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/flabort-GMO/content/weapons/gmo-fist-wrappings/gmo_fist_wrappings_short.png"
-dest_files=[ "res://.import/gmo_fist_wrappings_short.png-6ab8accfeb0a3e72bd2e7f2491480ffc.stex" ]
+source_file="res://mods-unpacked/flabort-GMO/content/weapons/gmo-fist-wrappings/GMO_fist_wrappings_short.png"
+dest_files=[ "res://.import/GMO_fist_wrappings_short.png-2e53ef52285073c2ad60a50bdb97009f.stex" ]
 
 [params]
 

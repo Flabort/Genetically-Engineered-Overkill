@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/GMO_practical_research_icon.png-151ce951e26869186e5c224194648053.stex"
+path="res://.import/GMO_flabort_icon.png-bc9108e66e70719d0f3c782db6dc2b96.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/flabort-GMO/content/items/Practical Research/GMO_practical_research_icon.png"
-dest_files=[ "res://.import/GMO_practical_research_icon.png-151ce951e26869186e5c224194648053.stex" ]
+source_file="res://mods-unpacked/flabort-GMO/content/items/Flabort/GMO_flabort_icon.png"
+dest_files=[ "res://.import/GMO_flabort_icon.png-bc9108e66e70719d0f3c782db6dc2b96.stex" ]
 
 [params]
 
