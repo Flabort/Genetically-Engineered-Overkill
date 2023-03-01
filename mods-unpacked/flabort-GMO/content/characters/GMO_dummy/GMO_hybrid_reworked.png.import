@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/GMO_fedora_worn.png-17ba7fa68349ef03c74f5d555ecdc2bf.stex"
+path="res://.import/GMO_hybrid_reworked.png-8f1c3cae10e72dc5affff309096a8c49.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/flabort-GMO/content/items/Fedora/GMO_fedora_worn.png"
-dest_files=[ "res://.import/GMO_fedora_worn.png-17ba7fa68349ef03c74f5d555ecdc2bf.stex" ]
+source_file="res://mods-unpacked/flabort-GMO/content/characters/GMO_dummy/GMO_hybrid_reworked.png"
+dest_files=[ "res://.import/GMO_hybrid_reworked.png-8f1c3cae10e72dc5affff309096a8c49.stex" ]
 
 [params]
 

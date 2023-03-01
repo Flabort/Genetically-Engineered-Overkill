@@ -7,7 +7,7 @@
 [ext_resource path="res://mods-unpacked/flabort-GMO/content/characters/GMO_dummy/GMO_effect_1.tres" type="Resource" id=5]
 [ext_resource path="res://mods-unpacked/flabort-GMO/content/characters/GMO_dummy/GMO_null_1.tres" type="Resource" id=6]
 [ext_resource path="res://mods-unpacked/flabort-GMO/content/characters/GMO_dummy/GMO_null_2.tres" type="Resource" id=7]
-[ext_resource path="res://mods-unpacked/flabort-GMO/content/characters/GMO_dummy/GMO_hybrid.png" type="Texture" id=8]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/characters/GMO_dummy/GMO_hybrid_reworked.png" type="Texture" id=8]
 
 [resource]
 script = ExtResource( 1 )
