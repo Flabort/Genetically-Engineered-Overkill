@@ -6,7 +6,7 @@
 
 [resource]
 script = ExtResource( 2 )
-my_id = ""
+my_id = "gmo_money_tree"
 unlocked_by_default = false
 icon = ExtResource( 1 )
 name = "GMO_MONEY_TREE"

@@ -1,7 +1,7 @@
 {
 	"name": "GMO",
 	"namespace": "flabort",
-	"version_number": "0.1.5",
+	"version_number": "0.1.6",
 	"description": "Allows for using more than one class at a time, at a cost",
 	"website_url": "",
 	"dependencies": [

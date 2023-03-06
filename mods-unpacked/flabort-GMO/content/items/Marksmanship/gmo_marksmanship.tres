@@ -1,0 +1,21 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Marksmanship/gmo_marksmanship_effect_1.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Marksmanship/gmo_marksmanship_appearance.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Marksmanship/gmo_marksmanship_icon.png" type="Texture" id=4]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Marksmanship/gmo_marksmanship_effect_2.tres" type="Resource" id=5]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "gmo_marksmanship"
+unlocked_by_default = false
+icon = ExtResource( 4 )
+name = "GMO_MARKSMANSHIP"
+tier = 1
+value = 65
+effects = [ ExtResource( 2 ), ExtResource( 5 ) ]
+tracking_text = ""
+max_nb = 1
+item_appearances = [ ExtResource( 3 ) ]
+tags = [ "stat_crit_chance", "stat_ranged_damage" ]
