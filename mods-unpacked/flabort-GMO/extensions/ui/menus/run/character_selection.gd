@@ -23,7 +23,9 @@ func on_element_pressed(element:InventoryElement)->void:
 	if RunData.is_gmo_run == true:
 		# This code allows you to select two characters
 		if first_character and !character_added:
-			_gmo_button.set_disabled(true)
+			# This Not Null fix will allow the mod to work with otDan's Item Explorer
+			if not _gmo_button == null:
+				_gmo_button.set_disabled(true)
 			.on_element_pressed(element)
 			return
 			
@@ -31,7 +33,9 @@ func on_element_pressed(element:InventoryElement)->void:
 			first_character = true
 			RunData.add_character(Utils.get_rand_element(available_elements))
 			update_locks(element.item.my_id)
-			_gmo_button.hide()
+			# This Not Null fix will allow the mod to work with otDan's Item Explorer
+			if not _gmo_button == null:
+				_gmo_button.hide()
 			_inventory.get_child(0).grab_focus()
 			# for some reason, I can't get this to work
 			#_gmo_mode_text.show()
@@ -41,13 +45,17 @@ func on_element_pressed(element:InventoryElement)->void:
 			first_character = true
 			RunData.add_character(element.item)
 			update_locks(element.item.my_id)
-			_gmo_button.hide()
+			# This Not Null fix will allow the mod to work with otDan's Item Explorer
+			if not _gmo_button == null:
+				_gmo_button.hide()
 			_inventory.get_child(0).grab_focus()
 			# for some reason, I can't get this to work
 			#_gmo_mode_text.show()
 		return
 	else:
-		_gmo_button.set_disabled(true)
+		# This Not Null fix will allow the mod to work with otDan's Item Explorer
+		if not _gmo_button == null:
+			_gmo_button.set_disabled(true)
 		.on_element_pressed(element)
 		return
 

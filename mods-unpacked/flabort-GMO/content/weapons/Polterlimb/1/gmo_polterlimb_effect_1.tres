@@ -1,0 +1,15 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://effects/weapons/gain_stat_every_killed_enemies_effect.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+key = "effect_gain_stat_every_killed_enemies"
+text_key = ""
+value = 32
+custom_key = ""
+storage_method = 0
+effect_sign = 3
+custom_args = [  ]
+stat = "stat_hp_regeneration"
+stat_nb = 1

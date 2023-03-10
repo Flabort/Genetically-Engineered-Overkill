@@ -1,0 +1,27 @@
+[gd_resource type="Resource" load_steps=9 format=2]
+
+[ext_resource path="res://items/global/weapon_data.gd" type="Script" id=1]
+[ext_resource path="res://items/sets/ethereal/ethereal_set_data.tres" type="Resource" id=2]
+[ext_resource path="res://items/sets/unarmed/unarmed_set_data.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/Polterlimb/polterlimb.tscn" type="PackedScene" id=4]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/Polterlimb/GMO_polterlimb_icon.png" type="Texture" id=5]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/Polterlimb/2/GMO_Polterlimb_2.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/Polterlimb/1/gmo_fist_polterlimb_1_stats.tres" type="Resource" id=7]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/Polterlimb/1/gmo_polterlimb_effect_1.tres" type="Resource" id=8]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "weapon_gmo_polterlimb_1"
+unlocked_by_default = false
+icon = ExtResource( 5 )
+name = "WEAPON_GMO_POLTERLIMB"
+tier = 0
+value = 16
+effects = [ ExtResource( 8 ) ]
+tracking_text = ""
+weapon_id = "weapon_gmo_polterlimb"
+type = 0
+sets = [ ExtResource( 3 ), ExtResource( 2 ) ]
+scene = ExtResource( 4 )
+stats = ExtResource( 7 )
+upgrades_into = ExtResource( 6 )

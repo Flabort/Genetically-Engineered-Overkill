@@ -55,7 +55,15 @@ func _ready():
 	var cust_config_xp_gain = ModLoader.get_mod_config("flabort-GMO","xp_gain").data
 	
 	if config_difficulty == "default" or ModLoader.get_mod_config("flabort-GMO","difficulty").error != 0:
-		pass
+		for effect in dummy_character.effects:
+			if effect.key == "items_price":
+				effect.value = 10
+			if effect.key == "xp_gain":
+				effect.value = -10
+			if effect.key == "number_of_enemies":
+				effect.value = 15
+			if effect.key == "enemy_speed":
+				effect.value = 3
 	elif config_difficulty == "original":
 		for effect in dummy_character.effects:
 			if effect.key == "items_price":

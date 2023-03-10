@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Take_out/GMO_take_out.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Take_out/take_out_effect_3.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Take_out/take_out_effect_4.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Take_out/gmo_take_out_appearance.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Take_out/take_out_effect_1.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Take_out/take_out_effect_2.tres" type="Resource" id=7]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "gmo_take_out"
+unlocked_by_default = false
+icon = ExtResource( 2 )
+name = "GMO_TAKE_OUT"
+tier = 1
+value = 51
+effects = [ ExtResource( 6 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 3 ) ]
+tracking_text = ""
+max_nb = -1
+item_appearances = [ ExtResource( 5 ) ]
+tags = [  ]
