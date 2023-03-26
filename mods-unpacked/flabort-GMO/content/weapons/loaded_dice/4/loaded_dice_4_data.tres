@@ -9,7 +9,7 @@
 
 [resource]
 script = ExtResource( 1 )
-my_id = "loaded_dice_3_data"
+my_id = "loaded_dice_4_data"
 unlocked_by_default = false
 icon = ExtResource( 6 )
 name = "Loaded Dice"

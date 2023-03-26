@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=9 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Elusive-Ghost/Elusive_Ghost_effect_1.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Elusive-Ghost/Elusive_Ghost_effect_3.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Elusive-Ghost/Elusive_Ghost_effect_2.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Elusive-Ghost/Elusive_Ghost_appearence_body.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Elusive-Ghost/Elusive_Ghost_url.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Elusive-Ghost/Elusive_ghost_appearence_mouth.tres" type="Resource" id=7]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Elusive-Ghost/GMO_Elusive_Ghost.png" type="Texture" id=8]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "GMO_elusive_ghost"
+unlocked_by_default = false
+icon = ExtResource( 8 )
+name = "GMO_ELUSIVEGHOST"
+tier = 3
+value = 103
+effects = [ ExtResource( 2 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 6 ) ]
+tracking_text = ""
+max_nb = 1
+item_appearances = [ ExtResource( 5 ), ExtResource( 7 ) ]
+tags = [ "stat_dodge", "stat_lifesteal" ]

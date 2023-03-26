@@ -6,7 +6,7 @@
 script = ExtResource( 1 )
 key = "materials"
 text_key = "effect_convert_stat_end_of_wave"
-value = 5
+value = 6
 custom_key = "convert_stats_end_of_wave"
 storage_method = 0
 effect_sign = 3

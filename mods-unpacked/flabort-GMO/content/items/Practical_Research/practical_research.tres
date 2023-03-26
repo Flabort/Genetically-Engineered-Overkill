@@ -18,4 +18,4 @@ effects = [ ExtResource( 5 ), ExtResource( 4 ) ]
 tracking_text = ""
 max_nb = 1
 item_appearances = [ ExtResource( 3 ) ]
-tags = [  ]
+tags = [ "stat_engineering" ]

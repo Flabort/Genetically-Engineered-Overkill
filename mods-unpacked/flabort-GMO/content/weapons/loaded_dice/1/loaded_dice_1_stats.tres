@@ -9,8 +9,8 @@
 [resource]
 script = ExtResource( 1 )
 cooldown = 50
-damage = 1
-accuracy = 1.0
+damage = 6
+accuracy = 0.85
 crit_chance = 0.03
 crit_damage = 1.5
 min_range = 0
@@ -33,6 +33,6 @@ piercing = 0
 piercing_dmg_reduction = 0.5
 bounce = 0
 bounce_dmg_reduction = 0.5
-projectile_speed = 1000
+projectile_speed = 600
 increase_projectile_speed_with_range = true
 projectile_scene = ExtResource( 2 )

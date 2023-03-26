@@ -6,7 +6,7 @@
 script = ExtResource( 1 )
 key = "xp_gain"
 text_key = ""
-value = 50
+value = 100
 custom_key = ""
 storage_method = 0
 effect_sign = 3

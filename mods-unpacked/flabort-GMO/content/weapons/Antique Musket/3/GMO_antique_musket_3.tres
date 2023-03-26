@@ -1,0 +1,28 @@
+[gd_resource type="Resource" load_steps=10 format=2]
+
+[ext_resource path="res://items/global/weapon_data.gd" type="Script" id=1]
+[ext_resource path="res://items/sets/gun/gun_set_data.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/Antique Musket/GMO_antique_musket_icon.png" type="Texture" id=3]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/Antique Musket/gmo_antique_musket.tscn" type="PackedScene" id=4]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/Antique Musket/2/GMO_antique_musket_2_stats.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/Antique Musket/3/GMO_antique_musket_3_effect_1.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/Antique Musket/4/GMO_antique_musket_4.tres" type="Resource" id=7]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/Antique Musket/3/GMO_antique_musket_3_effect_2.tres" type="Resource" id=8]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/weapons/Antique Musket/3/GMO_antique_musket_3_effect_3.tres" type="Resource" id=9]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "GMO_antique_musket_3"
+unlocked_by_default = false
+icon = ExtResource( 3 )
+name = "WEAPON_GMO_MUSKET"
+tier = 2
+value = 88
+effects = [ ExtResource( 6 ), ExtResource( 9 ), ExtResource( 8 ) ]
+tracking_text = ""
+weapon_id = "GMO_antique_musket"
+type = 1
+sets = [ ExtResource( 2 ) ]
+scene = ExtResource( 4 )
+stats = ExtResource( 5 )
+upgrades_into = ExtResource( 7 )

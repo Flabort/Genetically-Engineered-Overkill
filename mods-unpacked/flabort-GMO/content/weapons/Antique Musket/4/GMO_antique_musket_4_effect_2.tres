@@ -1,0 +1,15 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/effects/wave_stat_multiplier_effect.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+key = "EFFECT_WEAPON_WAVE_STATS"
+text_key = ""
+value = 7
+custom_key = ""
+storage_method = 0
+effect_sign = 1
+custom_args = [  ]
+stat_displayed_name = "cooldown"
+stat_name = "cooldown"

@@ -10,7 +10,7 @@
 
 [resource]
 script = ExtResource( 1 )
-my_id = "weapon_gmo_polterlimb_3"
+my_id = "weapon_gmo_polterlimb_4"
 unlocked_by_default = false
 icon = ExtResource( 5 )
 name = "WEAPON_GMO_POLTERLIMB"

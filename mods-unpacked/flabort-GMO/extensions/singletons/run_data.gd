@@ -60,7 +60,7 @@ func reset(restart:bool = false)->void:
 								if not current_character.wanted_tags.has(test_tag):
 									current_character.wanted_tags.append(test_tag)
 		
-		add_starting_items_and_weapons()
+			add_starting_items_and_weapons()
 
 
 

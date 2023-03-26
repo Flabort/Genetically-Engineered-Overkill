@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=10 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Magic-Barrier/GMO-Magic-Barrier-icon.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Magic-Barrier/GMO-magic-barrier-effect-1.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Magic-Barrier/GMO-magic-barrier-effect_5.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Magic-Barrier/GMO-magic-barrier-effect_3.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Magic-Barrier/GMO-magic-barrier-effect_4.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Magic-Barrier/GMO_magic_barrier_effect_2.tres" type="Resource" id=7]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Magic-Barrier/GMO-magic-barrier-effect_6.tres" type="Resource" id=8]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Magic-Barrier/GMO-Magic-Barrier-appearence.tres" type="Resource" id=9]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "gmo-magic-barrier"
+unlocked_by_default = false
+icon = ExtResource( 2 )
+name = "GMO_MAGIC_BARRIER"
+tier = 1
+value = 59
+effects = [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 8 ) ]
+tracking_text = ""
+max_nb = 4
+item_appearances = [ ExtResource( 9 ) ]
+tags = [ "stat_armor", "stat_elemental_damage", "stat_range" ]

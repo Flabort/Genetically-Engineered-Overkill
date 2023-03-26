@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Jeffs-Shades/Jeff_url.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Jeffs-Shades/jeffs-shades-effect-1.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Jeffs-Shades/jeffs-shades-effect-2.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Jeffs-Shades/GMO-jeffs-shades-icon.png" type="Texture" id=5]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Jeffs-Shades/jeffs-shades-effect-4.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/flabort-GMO/content/items/Jeffs-Shades/jeffs-shades-effect-3.tres" type="Resource" id=7]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "gmo_jeffs_shades"
+unlocked_by_default = false
+icon = ExtResource( 5 )
+name = "GMO_JEFFS_SHADES"
+tier = 2
+value = 69
+effects = [ ExtResource( 3 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 6 ), ExtResource( 2 ) ]
+tracking_text = ""
+max_nb = 1
+item_appearances = [  ]
+tags = [ "stat_percent_damage", "stat_attack_speed" ]

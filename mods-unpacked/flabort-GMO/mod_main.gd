@@ -23,6 +23,7 @@ func _init(modLoader = ModLoader):
 	modLoader.install_script_extension(ext_dir + "ui/menus/run/character_selection.gd")
 	modLoader.install_script_extension(ext_dir + "singletons/progress_data.gd")
 	modLoader.install_script_extension(ext_dir + "singletons/run_data.gd")
+	modLoader.install_script_extension(ext_dir + "singletons/weapon_service.gd")
 
 	# Add translations
 	modLoader.add_translation_from_resource("res://mods-unpacked/flabort-GMO/translations/GMO_text.en.translation")

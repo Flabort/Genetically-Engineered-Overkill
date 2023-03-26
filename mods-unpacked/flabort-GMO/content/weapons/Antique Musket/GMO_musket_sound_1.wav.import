@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/GMO_musket_sound_1.wav-30f6e204f9d885ad3bc5d0457d88e98c.sample"
+
+[deps]
+
+source_file="res://mods-unpacked/flabort-GMO/content/weapons/Antique Musket/GMO_musket_sound_1.wav"
+dest_files=[ "res://.import/GMO_musket_sound_1.wav-30f6e204f9d885ad3bc5d0457d88e98c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
